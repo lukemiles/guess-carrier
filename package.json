@@ -14,6 +14,7 @@
     "bondjs": "~1.0.0",
     "chai": "~1.9.0",
     "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "^1.0.0",
     "grunt-mocha-test": "~0.6.3",
     "mocha": "~1.17.1"
   },

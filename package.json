@@ -1,34 +1,29 @@
 {
-  "name": "shipit",
-  "version": "1.0.2",
-  "description": "This module allows you to connect to many shipping carriers like UPS and FedEx and download tracking data for your packages in a common schema",
-  "main": "lib/main.js",
+  "name": "guess-carrier",
+  "version": "1.0.0",
+  "description": "Regex to guess a shipping carrier.",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "async": "~0.2.10",
     "change-case": "~1.0.5",
-    "cheerio": "~0.13.1",
-    "grunt": "~0.4.2",
-    "grunt-contrib-coffee": "~0.10.0",
-    "moment-timezone": "~0.4.0",
-    "request": "~2.33.0",
-    "underscore": "~1.5.2",
-    "xml2js": "~0.4.1"
+    "underscore": "~1.5.2"
   },
   "devDependencies": {
     "bondjs": "~1.0.0",
     "chai": "~1.9.0",
+    "grunt": "~0.4.2",
     "grunt-mocha-test": "~0.6.3",
     "mocha": "~1.17.1"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "prepublish": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sailrish/shipit.git"
+    "url": "https://github.com/lukemiles/guess-carrier.git"
   },
   "keywords": [
     "FedEx",
@@ -41,8 +36,7 @@
   ],
   "author": "Rishi Arora",
   "license": "MIT",
-  "gitHead": "98fae33441e8059229d7c824d29665b57322b13d",
   "bugs": {
-    "url": "https://github.com/sailrish/shipit/issues"
+    "url": "https://github.com/lukemiles/guess-carrier/issues"
   }
 }

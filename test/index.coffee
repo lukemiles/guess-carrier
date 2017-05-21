@@ -2,7 +2,7 @@ assert = require 'assert'
 should = require('chai').should()
 expect = require('chai').expect
 bond = require 'bondjs'
-guessCarrier = require '../lib/guessCarrier'
+guessCarrier = require '../lib/index'
 
 describe 'carrier guesser', ->
 

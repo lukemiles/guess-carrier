@@ -1,6 +1,6 @@
 {
   "name": "guess-carrier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Regex to guess a shipping carrier.",
   "main": "lib/index.js",
   "directories": {

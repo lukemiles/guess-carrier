@@ -7,16 +7,16 @@
     "test": "test"
   },
   "dependencies": {
-    "change-case": "~1.0.5",
-    "underscore": "~1.5.2"
+    "change-case": "^3.1.0",
+    "underscore": "^1.13.1"
   },
   "devDependencies": {
-    "bondjs": "~1.0.0",
-    "chai": "~1.9.0",
-    "grunt": "~0.4.2",
-    "grunt-contrib-coffee": "^1.0.0",
-    "grunt-mocha-test": "~0.6.3",
-    "mocha": "~1.17.1"
+    "bondjs": "^2.0.0",
+    "chai": "^4.3.4",
+    "grunt": "^1.4.1",
+    "grunt-contrib-coffee": "^2.1.0",
+    "grunt-mocha-test": "^0.13.3",
+    "mocha": "^9.0.1"
   },
   "scripts": {
     "test": "grunt",
